@@ -1,5 +1,5 @@
 {
-  "framework": null,
-  "buildCommand": "echo 'No build step required'",
-  "installCommand": "echo 'No dependencies to install'"
+  "outputDirectory": "dist",
+  "installCommand": "echo 'Skipping dependency installation.'",
+  "buildCommand": "mkdir dist && cp index.html index.tsx metadata.json types.ts dist/ && cp -r components services dist/"
 }

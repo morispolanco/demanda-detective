@@ -1,3 +1,5 @@
 {
-  "installCommand": "echo 'Skipping: This project uses import maps, not npm.'"
+  "framework": null,
+  "buildCommand": null,
+  "installCommand": "echo 'Skipping installation: Static project with no build step.'"
 }
